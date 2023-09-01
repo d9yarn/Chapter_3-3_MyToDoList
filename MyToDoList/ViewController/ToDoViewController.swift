@@ -5,6 +5,7 @@ class ToDoViewController: UIViewController {
     var content = [TodoList]()
     var sections = [ToDoSection] ()
     var textInputHandler: ((String, Date) -> Void)?
+    var ddd = UIView()
     
     var deletedItems: [TodoList] = [] // 삭제항목 저장
     var doneItems: [TodoList] = [] // 완료항목 저장
